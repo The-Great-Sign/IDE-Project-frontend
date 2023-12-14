@@ -4,7 +4,7 @@ import { MdArrowRight, MdArrowDropDown } from 'react-icons/md';
 import { MdEdit } from 'react-icons/md';
 import { RxCross2 } from 'react-icons/rx';
 import { FileDiv, NodeContainer } from './FileTree.styles';
-import { NodeData } from '../../../types/IDE/FileTree/FileDataTypes';
+import { FileNodeType } from '../../../types/IDE/FileTree/fileTypes';
 import React from 'react';
 
 export const Node = ({
@@ -12,7 +12,7 @@ export const Node = ({
   style,
   dragHandle,
   tree,
-}: NodeRendererProps<NodeData>) => {
+}: NodeRendererProps<FileNodeType>) => {
   return (
     <NodeContainer className="node-container" style={style} ref={dragHandle}>
       <FileDiv

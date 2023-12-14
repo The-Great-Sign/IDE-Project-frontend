@@ -6,10 +6,9 @@ const headers = {
 };
 
 const axiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL,
+  baseURL: 'http://localhost:3003',
   headers: headers,
   withCredentials: true,
 });
-
 
 export default axiosInstance;

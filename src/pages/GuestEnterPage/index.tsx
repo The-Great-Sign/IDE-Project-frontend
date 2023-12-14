@@ -1,1 +1,1 @@
-export {default} from './GuestEnterPage';
+export { default } from './GuestEnterPage';

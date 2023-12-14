@@ -1,1 +1,1 @@
-export {default} from './IDEPage';
+export { default } from './IDEPage';
